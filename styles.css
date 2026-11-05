@@ -4,3 +4,7 @@
 .brand-logo{display:none}.brand-mark{display:none}.brand-lockup{display:block;width:190px;height:58px;object-fit:contain}
 .brand-icon{display:block;width:48px;height:48px;object-fit:contain}.brand strong,.brand small{display:block;line-height:1.15}.brand strong{font-size:17px;letter-spacing:.08em}.brand small{font-size:8px;letter-spacing:.17em;margin-top:4px}
 .hero-logo-display{background:#e6efca;display:grid;place-items:center}.hero-logo-display img{position:relative;z-index:2;width:55%;height:auto;filter:drop-shadow(0 14px 10px #3f794e22)}.logo-ring{position:absolute;width:62%;aspect-ratio:1;border:2px solid #b9d061;border-radius:50%;box-shadow:0 0 0 18px #ffffff35,0 0 0 38px #ffffff22}.hero-logo-display .art-caption{z-index:3;bottom:28px;color:#3f794e}.hero-logo-display .art-caption strong{color:#173d34}
+
+
+/* Inline SVG Logo fallback */
+.hero-logo-display svg{position:relative;z-index:2;width:55%;height:auto;filter:drop-shadow(0 14px 10px #3f794e22)}
